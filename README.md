@@ -1,2 +1,4 @@
-# Guanabara
-Aulas Gustavo Guanabara
+
+# Escrever Olá Mundo na tela.
+
+print('Olá mundo!')
