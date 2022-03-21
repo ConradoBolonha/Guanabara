@@ -1,2 +1,2 @@
 # Guanabara
-Aulas Gustavo Guanabara com exercícios
+Aulas Gustavo Guanabara + exercícios
