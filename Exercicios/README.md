@@ -1,2 +1,0 @@
-# Guanabara
-Aulas Gustavo Guanabara
