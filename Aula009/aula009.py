@@ -36,3 +36,7 @@ print(frase8.find('tras'))
 # comando "in" -> Procura caracter(s) e mostra True ou False.
 frase9 = 'Procurando caracter(s) com o comando "in"'
 print('comando' in frase9)
+
+#  comando "replace" -> Troca(reposiciona) uma frase na string
+frase10 = 'Usando o comando "replace" para reposicionar uma frase'
+print(frase10.replace('comando','command'))
