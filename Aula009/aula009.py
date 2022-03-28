@@ -66,7 +66,16 @@ print(frase15.strip())
 
 # Comando "rstrip" -> Remove os espaços em branco no final da strin (right)
 # Comando "lstrip" -> Remove os espaços em ando no final da string (left)
-
 frase16 = '     Removendo espaços em branco no começo e no final de uma string      '
 print(frase16.rstrip())
 print(frase16.lstrip())
+
+# Comando "split" --> Divide a string em palavras
+# Exemplo: Curso em vídeo Python == Curso | em | Vídeo | Python (cada
+# palavra recebe uma indexação nova)
+frase17 = 'Estudando o comando split'
+print(frase17.split())
+
+# Comando "join" -> Faz a junção de palavras em uma string usando algum caracter
+frase18 = 'Juntando frases em uma string'
+print('-'.join(frase18))
