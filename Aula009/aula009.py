@@ -33,10 +33,40 @@ print(frase7.count('e', 0, 10))
 frase8 = 'Localizador de letras usando o argumento find'
 print(frase8.find('tras'))
 
-# comando "in" -> Procura caracter(s) e mostra True ou False.
+# Comando "in" -> Procura caracter(s) e mostra True ou False.
 frase9 = 'Procurando caracter(s) com o comando "in"'
 print('comando' in frase9)
 
-#  comando "replace" -> Troca(reposiciona) uma frase na string
+# Comando "replace" -> Troca(reposiciona) uma frase na string
 frase10 = 'Usando o comando "replace" para reposicionar uma frase'
 print(frase10.replace('comando','command'))
+
+# Comando "upper" -> Transfoma a string letras em maiúscula
+frase11 = "Transforma a string em caixa alta"
+print(frase11.upper())
+
+# Comando "lower" -> Transforma string em letras minísculas
+frase12 = 'Vamos Estudar o Comando "lower"'
+print(frase12.lower())
+
+# Comando "capitalize" -> Transforma todos caractres em minúsculo com
+# exceção do primeiro caracter da string
+frase13 = 'AgorA VamoS EstudaR o ComandO "capitalize"'
+print(frase13.capitalize())
+
+# Comando "title" -> Analisa as palavras de uma string e transforma
+# a primeira letra de cada palavra em maísculo
+frase14 = 'Usando o comando "title" em uma string'
+print(frase14.title())
+
+# Comando "strip" remove espaços desnecessários no começo e no final
+# de uma string
+frase15 = '   Removendo espaços desnecessários de uma string      '
+print(frase15.strip())
+
+# Comando "rstrip" -> Remove os espaços em branco no final da strin (right)
+# Comando "lstrip" -> Remove os espaços em ando no final da string (left)
+
+frase16 = '     Removendo espaços em branco no começo e no final de uma string      '
+print(frase16.rstrip())
+print(frase16.lstrip())
