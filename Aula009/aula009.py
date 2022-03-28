@@ -35,4 +35,4 @@ print(frase8.find('tras'))
 
 # comando "in" -> Procura caracter(s) e mostra True ou False.
 frase9 = 'Procurando caracter(s) com o comando "in"'
-print('com')
+print(frase9) #  .in('cura'))
