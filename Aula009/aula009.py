@@ -55,7 +55,7 @@ frase13 = 'AgorA VamoS EstudaR o ComandO "capitalize"'
 print(frase13.capitalize())
 
 # Comando "title" -> Analisa as palavras de uma string e transforma
-# a primeira letra de cada palavra em maísculo
+# a primeira letra de cada palavra em maiúsculo
 frase14 = 'Usando o comando "title" em uma string'
 print(frase14.title())
 
