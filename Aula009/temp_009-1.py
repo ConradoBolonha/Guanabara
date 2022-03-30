@@ -2,3 +2,4 @@
 
 frase4 = 'Frase DO dia COM salto DE três em três'
 print(len(frase4))
+
