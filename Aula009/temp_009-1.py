@@ -1,12 +1,13 @@
 """
-Faça um programa que crie um número de 0 a 9999 e
-mostre na tela cada um dos digitos separados.
-Ex: Número 1529
-unidade: 9
-dezena: 2
-centena: 5
-milhar: 1
+Crie um programa que leia o nome completo de uma pessoa e mostre:
 
-Obs: Tente fazer como String e matematicamente
+1-O nome completo com todas as letras maiúscula;
+2-O nome com todas minúsculas;
+3-Quantas letras ao todo (sem considerar espaços);
+4-Quantas letras tem o primeiro nome.
 """
 
+nome = str(input('Digite seu nome: '))
+print(nome.upper())
+print(nome.lower())
+print(len(nome) - nome.count(' '))
