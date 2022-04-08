@@ -1,15 +1,8 @@
-"""
-Crie um programa que leia o nome completo de uma pessoa e mostre:
-
-1-O nome completo com todas as letras maiúscula;
-2-O nome com todas minúsculas;
-3-Quantas letras ao todo (sem considerar espaços);
-4-Quantas letras tem o primeiro nome.
+"""'
+Crie um programa que lei o nome de uma cidade e diga
+se ela começa ou não com o nome "Santo"
 """
 
-nome = str(input('Digite seu nome: '))
-print('Seu nome com letras maiúscula é {}'.format(nome.upper()))
-print('Seu nome com letras minúscula é {}'.format(nome.lower()))
-print('Seu nome tem {} letras'.format(len(nome) - nome.count(' ')))
-print('Seu primeiro nome tem {}'.format(nome.find(' ')))
-print(nome.find(' '))
+cidade = input('Digite o nome composto de uma cidade: ')
+div_cid = cidade.split()
+print ('Santo' in div_cid[0])
