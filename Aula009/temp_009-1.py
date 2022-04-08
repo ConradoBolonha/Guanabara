@@ -1,8 +1,9 @@
-"""'
-Crie um programa que lei o nome de uma cidade e diga
-se ela começa ou não com o nome "Santo"
+"""
+Faça um programa que leia o nome completo de uma pessoa, mostrando
+em seguida o primeiro e o último nome separadamente.
+
 """
 
-cidade = input('Digite o nome composto de uma cidade: ')
-div_cid = cidade.split()
-print ('Santo' in div_cid[0])
+nome = input("Digite seu nome completo: ")
+div_nome = nome.split()
+print(div_nome[0:])
