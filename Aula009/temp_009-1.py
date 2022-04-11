@@ -4,6 +4,6 @@ em seguida o primeiro e o último nome separadamente.
 
 """
 
-nome = input("Digite seu nome completo: ")
+nome = input('Digite seu nome completo: ')
 div_nome = nome.split()
-print(div_nome[0:])
+print(len(div_nome[0], [div_nome -1]))
