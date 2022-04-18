@@ -1,2 +1,2 @@
 # Guanabara
-Aulas Python Guanabara
+Aulas Gustavo Guanabara + exercícios
