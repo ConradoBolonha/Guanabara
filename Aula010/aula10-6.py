@@ -8,3 +8,4 @@ if media >= 7.0:
     print('Sua media foi {:.2f}. Parabéns, você atingiu a média e passou de ano! :-)'.format(media))
 else:
     print('Sua média foi {:.2f} e você NÃO atingiu a média mínina 7.0. Estude mais!'.format(media))
+print('Independente da média, estudar sempre é bom!!!')
