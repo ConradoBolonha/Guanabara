@@ -1,3 +1,4 @@
 # Guanabara
 Aulas Gustavo Guanabara + exercícios
-Acer
+Acer Aspire-V5
+
