@@ -1,3 +1,3 @@
 # Guanabara
 
-Aulas Gustavo Guanabara + exercicios
+Link Git -> https://github.com/ConradoBolonha/Guanabara.git
