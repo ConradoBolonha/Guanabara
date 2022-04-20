@@ -1,4 +1,5 @@
 len - Conta a quantidade de caracteres
+    print(len('String de exmplo'))
 count - Conta a quantidade de uma determinada letra
 find - Mostra a posição de um caracter
 in - Procura um caracter True ou False
