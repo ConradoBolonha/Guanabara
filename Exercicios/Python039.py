@@ -10,3 +10,10 @@ Seu programa também deverá mostar o tempo que falta ou
 que passou do prazo
 """
 
+ano_nasc = int(input('\nDigite seu ano de nascimento: '))
+if 2022 - ano_nasc < 18:
+    print('Você ainda não tem idade para se alistar!')
+elif 2022 - ano_nasc == 18:
+    print('Você tem que que se alistar esse ano.')
+elif 2022 - ano_nasc > 18:
+    print('Você já passou do tempo de se alistar!')

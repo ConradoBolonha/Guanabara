@@ -1,5 +1,5 @@
 """
-Escreva um programa que leia um núemro inteiro qualquer e peça
+Escreva um programa que leia um número inteiro qualquer e peça
 para o usuário escolher qual será a base de conversão:
 
 1 para binário;
@@ -7,3 +7,6 @@ para o usuário escolher qual será a base de conversão:
 3 para hexadecimal
 """
 
+num = input(int('Digite um número para saber sua conversão: '))
+print('')
+bin = 
