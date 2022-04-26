@@ -9,11 +9,19 @@ informe de acordo com sua idade:
 Seu programa também deverá mostar o tempo que falta ou
 que passou do prazo
 """
+from datetime import date
 
+atual = date.today().year
 ano_nasc = int(input('\nDigite seu ano de nascimento: '))
-if 2022 - ano_nasc < 18:
-    print('Você ainda não tem idade para se alistar!')
-elif 2022 - ano_nasc == 18:
-    print('Você tem que que se alistar esse ano.')
-elif 2022 - ano_nasc > 18:
+idade = atual -ano_nasc
+
+if idade == 18:
+    print('Você tem que que se alistar IMEDIATAMENTE!!!.')
+    print('Quem nasceu em {} tem {} anos em 2022'.format(ano_nasc, ano_nasc - 2022))
+    print('Você está com {} anos e faltam {} anos para se alistar!')
+elif ano_nasc < 18:
+    print()
+elif ano_nasc > 18:
+    print('Quem nasceu em {} tem {} anos em 2022'.format(ano_nasc, ano_nasc - 2022))
+    print('Você já deveriq ter se alistado em {} anos'.format(ano_nasc - 18))
     print('Você já passou do tempo de se alistar!')
