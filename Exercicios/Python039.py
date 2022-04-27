@@ -13,15 +13,14 @@ from datetime import date
 
 atual = date.today().year
 ano_nasc = int(input('\nDigite seu ano de nascimento: '))
-idade = atual -ano_nasc
+idade = atual - ano_nasc
 
-if idade == 18:
-    print('Você tem que que se alistar IMEDIATAMENTE!!!.')
-    print('Quem nasceu em {} tem {} anos em 2022'.format(ano_nasc, ano_nasc - 2022))
-    print('Você está com {} anos e faltam {} anos para se alistar!')
-elif ano_nasc < 18:
-    print()
+if idade < 18:
+    print('Você tem {} anos de idade em {}. Faltam {} ano(s) para seu alistamento.\n'.format(idade, atual, 18 - idade))
+elif idade == 18:
+    print('Você nasceu em {} e tem {} anos em atual. Precisa se alistar IMEDIATAMENTE!!!'.format(ano_nasc, idade, atual))
+    print('Você está com {} anos e faltam {} anos para se alistar!\n'.format(idade, 18 - idade))
 elif ano_nasc > 18:
-    print('Quem nasceu em {} tem {} anos em 2022'.format(ano_nasc, ano_nasc - 2022))
-    print('Você já deveriq ter se alistado em {} anos'.format(ano_nasc - 18))
-    print('Você já passou do tempo de se alistar!')
+    print('Você nasceu em {} e tem {} anos em 2022.'.format(ano_nasc, 2022 - ano_nasc))
+    print('O seu alistamento foi no ano de {}.'.format(ano_nasc + 18))
+    print('Você já passou do tempo de se alistar!\n')
