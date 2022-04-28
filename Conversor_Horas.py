@@ -1,4 +1,3 @@
-
 print('=-' * 5, 'CONVERSOR DE HORAS, MINUTOS E SEGUNDOS', '=-' * 5)
 print('''\nEscolha uma opção para ver sua conversão:
 [ 1 ] - HORAS em MINUTOS
