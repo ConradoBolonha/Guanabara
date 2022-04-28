@@ -12,9 +12,9 @@ seu IMC e mostre seu status de acordo com a tabela abaixo:
 print('\n ### CALCULE SEU IMC ###')
 altura = float(input('\nDigite sua altura: '))
 peso = float(input('Digite seu peso: '))
-imc = peso / altura ** 2
+imc = peso / (altura ** 2)
 if imc <= 18.5:
-    print('Seu IMC é {:.2f}. Você está abaixo do peso.'.format(imc))
+    print('Seu IMC é {:.2f}. Você está abaixo do peso ideal.'.format(imc))
 elif imc >= 18.6 and imc <= 24.9:
     print('Seu IMC é {:.2f}. Você está no peso ideal.'.format(imc))
 elif imc >= 25 and imc <= 29.9:
