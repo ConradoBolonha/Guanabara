@@ -23,13 +23,13 @@ print('O jogador jogou {}.'.format(itens[jogador]))
 #  print('=-' * 13)
 if computador == 0: #  PEDRA
     if jogador == 0: # PEDRA
-        print('\nEMPATE!!!')
+        print('\n\033[33mEMPATE!!!\033[m')
         print('\n')
     elif jogador == 1: #  PAPEL
-        print('\nO JOGADOR VENCEU :-)')
+        print('\n\033[32mO JOGADOR VENCEU :-)\033[m')
         print('\n')
     elif jogador == 2: # TESOURA
-        print('\nO JOGADOR PERDEU :-(')
+        print('\n\033[31mO JOGADOR PERDEU :-(\033[m')
         print('\n')
     else:
         print('JOGADA INVÁLIDA!!!')
@@ -37,26 +37,26 @@ if computador == 0: #  PEDRA
         
 elif computador == 1: #  PAPEL
     if jogador == 0: # PEDRA
-        print('\nO JOGADOR PERDEU :-(')
+        print('\n\033[31mO JOGADOR PERDEU :-(\033[m')
         print('\n')
     elif jogador == 1: #  PAPEL
-        print('\nEMPATE!!!')
+        print('\n\033[33mEMPATE!!!\033[m')
         print('\n')
     elif jogador == 2: #  TESOURA
-        print('\nO JOGADOR VENCEU :-)')
+        print('\n\033[32mO JOGADOR VENCEU :-)\033[m')
         print('\n')
     else:
         print('\nJOGADA INVÁLIDA!!!')
         print('\n')
 elif computador == 2: #  TESOURA
     if jogador == 0: #  PEDRA
-        print('\nO JOGADOR VENCEU :-)')
+        print('\n\033[32mO JOGADOR VENCEU :-)\033[m')
         print('\n')
     elif jogador == 1: #  PAPEL
-        print('\nO JOGADOR PERDEU :-(')
+        print('\n\033[31mO JOGADOR PERDEU :-(\033[m')
         print('\n')
     elif jogador == 2:
-        print('\nEMPATE!!!')
+        print('\n\033[33mEMPATE!!!\033[m')
         print('\n')
     else:
         print('\nJOGADA INVÁLIDA!!!')
