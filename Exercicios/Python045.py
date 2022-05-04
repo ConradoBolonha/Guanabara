@@ -13,11 +13,12 @@ print('''\nSua opções são:
 [ 2 ] TESOURA''')
 jogador = int(input('\nQual é a sua jogada? '))
 #  print('=-' * 13)
-print('\nJO')
+print('\nJO...')
 sleep(1)
-print('KEN')
+print('KEN...')
 sleep(1)
 print('PÔ !!!')
+sleep(1)
 print('\nO computador jogou {}.'.format(itens[computador]))
 print('O jogador jogou {}.'.format(itens[jogador]))
 #  print('=-' * 13)
@@ -35,7 +36,7 @@ if computador == 0: #  PEDRA
         print('JOGADA INVÁLIDA!!!')
         print('\n')
         
-elif computador == 1: #  PAPEL
+if computador == 1: #  PAPEL
     if jogador == 0: # PEDRA
         print('\n\033[31mO JOGADOR PERDEU :-(\033[m')
         print('\n')
@@ -48,7 +49,7 @@ elif computador == 1: #  PAPEL
     else:
         print('\nJOGADA INVÁLIDA!!!')
         print('\n')
-elif computador == 2: #  TESOURA
+if computador == 2: #  TESOURA
     if jogador == 0: #  PEDRA
         print('\n\033[32mO JOGADOR VENCEU :-)\033[m')
         print('\n')
