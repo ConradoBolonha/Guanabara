@@ -25,6 +25,7 @@ elif nome3 == 'Ana' or nome3 == 'Maria' or nome3 == 'Pedro':
     print('{}, seu nome é tão normal!'.format(nome3))
 else:
     print('Tenha uma boa tarde!')
+print('Prazer em conhecer todos seu nomes!!!')
 
 ### ESTRUTURA:
 if
