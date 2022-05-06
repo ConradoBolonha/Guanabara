@@ -4,3 +4,10 @@ Faça um programa que calcule a soma entre todos os números
 intervalo de 1 até 500.
 """
 
+soma = 0
+contad = 0
+for cont in range(1, 501, 2):
+    if cont % 3 == 0:
+        contad = contad + 1
+        soma = soma + cont #  ou soma += 1
+print('A soma de todos os {} números é {}'.format(contad, soma))
