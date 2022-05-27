@@ -1,4 +1,3 @@
-from itertools import count
 
 
 num = 1, 2 ,3, 9
