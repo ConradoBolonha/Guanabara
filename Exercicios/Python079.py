@@ -5,3 +5,7 @@ será adicionado. No final, serão exibidos todos os valores únicos digitados
 em ordem crescente.
 '''
 
+val_num = []
+while True:
+    val_num = int(input('Digite um valor: '))
+    contin = print('Quer continuar? ')
