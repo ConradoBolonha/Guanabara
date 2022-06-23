@@ -1,2 +1,2 @@
-nome = 'Fala 06!!!'
+nome = 'Opa, beleza!!!'
 print(nome)
